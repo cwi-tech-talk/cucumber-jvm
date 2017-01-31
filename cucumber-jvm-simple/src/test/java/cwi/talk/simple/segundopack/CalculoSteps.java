@@ -37,4 +37,14 @@ public class CalculoSteps {
 		Assert.assertEquals(soma, resultado);
 	}
 
+	@Quando("^faço (\\d) pontos?$")
+	public void faco_x_ponto(Integer pontos) {
+		System.out.println("Quantidade pontos: ".concat(pontos.toString()));
+	}
+	
+//	@Quando("^faço (\\d) iteraç(ão|ões)?$")
+	@Quando("^faço (\\d) iteraç(?:ão|ões)?$")
+	public void faco_x_iteracao(Integer iteracao) {
+		System.out.println("Quantidade iterações: ".concat(iteracao.toString()));
+	}
 }

@@ -1,6 +1,7 @@
 package cwi.talk.simple.primeiropack;
 
 import cucumber.api.java.pt.Dado;
+import cucumber.api.java.pt.Quando;
 
 public class LoginSteps {
 
@@ -25,6 +26,13 @@ public class LoginSteps {
 			System.out.println("Fazendo login no sistema com perfil de ".concat("Administrador"));
 		else
 			System.out.println("Fazendo login no sistema com perfil ".concat("sem acesso a nada"));
+	}
+	
+	@Quando("^(não )?faço uma ação$")
+	public void faco_uma_acao(String nao) {
+		boolean fazAcao = nao == null;
+		// boolean fazAcao = nao.equals("não");
+		System.out.println("Faço a ação? " + fazAcao);
 	}
 
 }

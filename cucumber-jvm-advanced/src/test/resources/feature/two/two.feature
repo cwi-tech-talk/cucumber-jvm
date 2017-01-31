@@ -1,4 +1,5 @@
 #language: pt
+@two
 Funcionalidade: Teste utilizando TwoSteps
 
   Cenário: Utiliza passos do TwoSteps exclusivamente
