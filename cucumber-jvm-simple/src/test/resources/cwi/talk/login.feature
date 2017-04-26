@@ -22,9 +22,3 @@ Funcionalidade: Testes com LoginSteps
   Cenário: Passos com configurações de negação
     Quando não faço uma ação
     E faço uma ação
-
-  Cenário: Passos com configurações de plurais
-    Quando faço 1 ponto
-    E faço 3 pontos
-    Então faço 1 iteração
-    E faço 1 iterações

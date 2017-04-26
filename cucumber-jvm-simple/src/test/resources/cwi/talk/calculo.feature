@@ -16,8 +16,14 @@ Funcionalidade: Testes com CalculoSteps
     Quando faço a soma deles
     Então o resultado é <soma>
 
-    Exemplos: 
+    Exemplos:
       | num1 | num2 | soma |
-      |    1 |    2 |    3 |
-      |    2 |    2 |    4 |
-      |  100 |  250 |  350 |
+      | 1    | 2    | 3    |
+      | 2    | 2    | 4    |
+      | 100  | 250  | 350  |
+
+  Cenário: Passos com configurações de plurais
+    Quando faço 1 ponto
+    E faço 3 pontos
+    Então faço 1 iteração
+    E faço 1 iterações
