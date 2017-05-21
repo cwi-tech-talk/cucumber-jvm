@@ -12,11 +12,10 @@
         <module>cucumber-jvm-options-features</module>
         <module>cucumber-jvm-options-glue</module>
         <module>cucumber-jvm-simple</module>
+        <module>cucumber-jvm-hooks</module>
     </modules>
 
     <packaging>pom</packaging>
-
-
 
     <dependencies>
         <dependency>
