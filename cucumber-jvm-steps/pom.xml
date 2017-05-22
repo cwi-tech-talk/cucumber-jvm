@@ -6,7 +6,7 @@
 		<artifactId>cucumber-jvm</artifactId>
 		<version>1.0.0</version>
 	</parent>
-	<artifactId>cucumber-jvm-simple</artifactId>
+	<artifactId>cucumber-jvm-steps</artifactId>
 
 	<build>
 		<plugins>
